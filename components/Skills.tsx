@@ -6,8 +6,7 @@ import {
   SiReact, SiTypescript, SiNodedotjs, SiMongodb, SiPostgresql,
   SiPython, SiGit, SiOpenai, SiHtml5, SiCss3, SiCplusplus,
   SiPrisma, SiJavascript, SiAmazons3,
-  SiMysql, SiLangchainIcon,
-  SiNotepadplusplus
+  SiMysql
 } from 'react-icons/si'
 import { VscTerminal, VscPackage, VscServerProcess } from 'react-icons/vsc'
 

@@ -160,7 +160,17 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FaGithub, FaExternalLinkAlt, FaTerminal, FaCodeBranch } from 'react-icons/fa'
 
-const projects = [
+type Project = {
+  title: string
+  problem: string
+  solution: string
+  techStack: string[]
+  outcome: string
+  demo?: string
+  github?: string
+}
+
+const projects: Project[] = [
   {
     title: 'GHUMMO.AI–AI_Powered Trip Planner',
     problem: 'Plan complete trips quickly with personalized day‑by‑day itineraries.',
